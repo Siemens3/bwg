@@ -16,6 +16,7 @@ namespace BWGDroidSite.Controllers
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
+
         private ApplicationUserManager _userManager;
 
         public AccountController()
